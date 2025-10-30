@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Image Gallery</h1>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="city">City</button>
+                <button class="filter-btn" data-filter="people">People</button>
+            </div>
+        </header>
+
+        <div class="gallery" id="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/400/300?random=1" alt="Nature 1">
+                <div class="overlay">
+                    <span>Nature Scene</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="https://picsum.photos/400/300?random=2" alt="City 1">
+                <div class="overlay">
+                    <span>City View</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="https://picsum.photos/400/300?random=3" alt="People 1">
+                <div class="overlay">
+                    <span>Portrait</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/400/300?random=4" alt="Nature 2">
+                <div class="overlay">
+                    <span>Landscape</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="https://picsum.photos/400/300?random=5" alt="City 2">
+                <div class="overlay">
+                    <span>Architecture</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="https://picsum.photos/400/300?random=6" alt="People 2">
+                <div class="overlay">
+                    <span>Group Photo</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/400/300?random=7" alt="Nature 3">
+                <div class="overlay">
+                    <span>Wildlife</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="https://picsum.photos/400/300?random=8" alt="City 3">
+                <div class="overlay">
+                    <span>Street View</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close">&times;</span>
+            <button class="nav-btn prev" id="prevBtn">&#10094;</button>
+            <img id="lightboxImg" src="" alt="">
+            <button class="nav-btn next" id="nextBtn">&#10095;</button>
+            <div class="image-counter">
+                <span id="currentImage">1</span> / <span id="totalImages">8</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

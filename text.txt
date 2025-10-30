@@ -1,0 +1,56 @@
+Features Included:
+1. HTML & CSS Layout
+Clean, modern grid-based layout
+
+Responsive design that adapts to different screen sizes
+
+Professional styling with gradient backgrounds and glass-morphism effects
+
+2. JavaScript Navigation
+Next/Previous buttons in lightbox view
+
+Keyboard navigation (arrow keys, escape)
+
+Click-to-open lightbox functionality
+
+Image counter showing current position
+
+3. Hover Effects & Smooth Transitions
+Image hover effects with scale and lift animations
+
+Overlay animations that slide up on hover
+
+Button hover effects with scale and glow
+
+Smooth transitions throughout (0.3s ease)
+
+4. Responsive Design
+Desktop: Multi-column grid layout
+
+Tablet: Adjusted grid with smaller gaps
+
+Mobile: Single column layout with optimized sizing
+
+Flexible breakpoints at 768px and 480px
+
+5. Bonus: Image Filters/Categories
+Filter buttons for All, Nature, City, People
+
+Dynamic filtering that shows/hides images
+
+Active filter highlighting
+
+Counter updates based on filtered results
+
+Key Features:
+Lightbox Modal with backdrop blur effect
+
+Image fade transitions when navigating
+
+Keyboard accessibility (ESC, arrow keys)
+
+Touch-friendly navigation buttons
+
+Modern CSS with backdrop-filter and gradients
+
+Sample images using Picsum for demonstration
